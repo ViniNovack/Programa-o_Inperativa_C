@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main_1();
 int main_2();
@@ -6,6 +7,7 @@ int main_3();
 int main_4();
 int main_5();
 int main_6();
+int main_7();
 
 int main()
 {
@@ -15,7 +17,7 @@ int main()
     unsigned int idade = 30;
     idade = 40;
 
-    printf("%d %u\n", temperatura, idade);
+    printf("%d %x\n", temperatura, idade);
 
     printf("%zu\n", sizeof(int));
 
@@ -98,5 +100,28 @@ int main_5()
 
 int main_6()
 {
-    
+    char letra = 'A';
+    printf("%c\n", letra);
+    printf("%d\n", letra);
+
+    letra = letra + 1;
+    printf("%c\n", letra);
+    printf("%d\n", letra);
+
+    letra = letra / 2;
+    printf("%c\n", letra);
+    printf("%d\n", letra);
+
+    return 0;
+}
+
+int main_7()
+{
+    bool frio = true;
+    bool calor = false;
+
+    printf("%d\n", frio);
+    printf("%d\n", calor);
+
+    return 0;
 }
