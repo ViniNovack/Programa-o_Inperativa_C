@@ -14,7 +14,7 @@ int main()
     int temperatura = 20;
     temperatura = - 10;
 
-    unsigned int idade = 30;
+    unsigned int idade = 30;    //"unsigned" é um modificador que força uma varivel a aceitar apenas números inteiros positivos e o zero
     idade = 40;
 
     printf("%d %x\n", temperatura, idade);
