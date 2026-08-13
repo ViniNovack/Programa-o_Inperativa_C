@@ -4,13 +4,13 @@
 int main(){
     int n1 = 0;
     int n2 = 0;
-    
+    int n = 0;
+
     int i = 1;
     while(i < 4){
         printf("Digite o algarismo %d do N1: ", i);
-        char n = getchar();
-        getchar();
-        n1 = n1 * 10 + (n - '0');
+        scanf("%d", &n);
+        n1 = n1 * 10 + n;
         i++;
     } 
     
@@ -19,9 +19,8 @@ int main(){
     i = 1;
     while(i < 4){
         printf("Digite o algarismo %d do N2: ", i);
-        char n = getchar();
-        getchar();
-        n2 = n2 * 10 + (n - '0');
+        scanf("%d", &n);
+        n2 = n2 * 10 + n;
         i++;
     }
 
