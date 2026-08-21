@@ -3,7 +3,7 @@
 
 int main(){
     char x, y, z, temp;
-    printf("Digite ")
+    printf("Digite ");
 
     return 0;
 }
