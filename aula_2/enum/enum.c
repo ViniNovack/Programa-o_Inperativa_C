@@ -23,3 +23,7 @@ int main() {
     }
     return 0;
 }
+
+// Definição de um novo tipo de dados com domínio de valores discreto e
+// bem limitado.
+// Cada valor do domínio corresponde a uma constante.
