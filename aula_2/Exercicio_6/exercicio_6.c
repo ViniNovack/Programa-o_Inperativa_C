@@ -2,11 +2,23 @@
 #include <stdbool.h>
 
 int main() {
-    int k = 0;
+    int n;
+    double s = 0, so = 1.0, su = 0;
+    printf("Digite um valor: ");
+    scanf("%d", &n);
 
     do {
-        ;
-    } while(k < 5 || k > 8);
-    printf("");
+        s = s + (so / (n - su));
+        so = so + 1;
+        su = su + 1;
+    } while(n > su);
+
+    do{
+        s = s + ((n - su) / so);
+        so = so - 1;
+        su = su - 1;
+    } while(su >= 0);
+
+    printf("%f", s);
     return 0;
 }
