@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-main(){
-    
-    return 0;
+double dobrar(double x){
+    return 2 * x;
 }
