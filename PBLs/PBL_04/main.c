@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "Funcoes/funcoes.h"
+#include "Funcoes/Leitura.h"
 
 int main(){
     int x = 9;

@@ -1,7 +1,7 @@
 #ifndef funcoes
 #define funcoes
 
-int leitura(int* l){
+void leitura(int* l){
     *l = *l + 1;
 }
 
