@@ -4,10 +4,10 @@
 #include <math.h>
 
 #include "Funcoes/Leitura.h"
+#include "Funcoes/Classificacao.h"
+#include "Funcoes/Relatorio.h"
 
 int main(){
-    int x = 9;
-    leitura(&x);
-    printf("%d", x);
+
     return 0;
 }

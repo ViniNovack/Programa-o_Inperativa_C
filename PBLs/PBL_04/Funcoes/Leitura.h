@@ -1,7 +1,12 @@
-#ifndef funcoes
-#define funcoes
+#ifndef leitura
+#define leitura
 
-void leitura(int* l){
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <math.h>
+
+void ler_dados_dos_estudantes(int* l){
     *l = *l + 1;
 }
 
