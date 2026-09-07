@@ -9,15 +9,11 @@
 #include "Tipos/Estudantes.h"
 
 
-#define TAM 11
+#define TAM 5
 Estudantes estudante[TAM];
 
 int main(){
-    printf("Digite a matricula e a nota:\n");
-    for(int i = 0; i < TAM; i++){
-        printf("%d. ", (i + 1));
-        scanf("%d %f", &estudante[i].numero_de_matricula, &estudante[i].nota_semestral);
-    }
+    ler_dados_dos_estudantes(estudante, TAM);
 
     for(int i = 0; i < TAM; i++){
         classificar(&estudante[i].nota_semestral, &estudante[i].indicador_de_aprovacao);

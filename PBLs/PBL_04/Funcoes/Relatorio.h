@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <math.h>
 
+
 #include "../Tipos/Estudantes.h"
 
 void imprimir_relatorio(Estudantes list[], int tamanho){

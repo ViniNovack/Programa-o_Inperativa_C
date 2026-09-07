@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <math.h>
 
+
 typedef struct{
     int numero_de_matricula;
     float nota_semestral;
