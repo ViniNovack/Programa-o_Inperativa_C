@@ -6,8 +6,15 @@
 #include <stdlib.h>
 #include <math.h>
 
-void ler_dados_dos_estudantes(int* l){
-    *l = *l + 1;
-}
+
+
+
+
+
+
+
+// void ler_dados_dos_estudantes(int* l){
+//     *l = *l + 1;
+// }
 
 #endif

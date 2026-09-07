@@ -6,6 +6,12 @@
 #include <stdlib.h>
 #include <math.h>
 
-
+void classificar(float* nota, bool* aprovado){
+    if(*nota >= 7){
+        *aprovado = true;
+    } else{
+        *aprovado = false;
+    }
+}
 
 #endif
