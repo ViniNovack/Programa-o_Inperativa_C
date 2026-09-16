@@ -17,11 +17,11 @@ int main(){
     int cont = 0;
     for(int i = 0; i <= 3; i++){
         for(int j = 0; s[j] != '\0'; j++){
-            if(*p == s[j]){
+            if(p[i] == s[j]){
                 cont++;
+                break;
             }
         }
-        p++;
     }
     
     if(cont == 1){
