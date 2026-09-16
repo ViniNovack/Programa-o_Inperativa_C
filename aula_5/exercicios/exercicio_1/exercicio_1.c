@@ -4,10 +4,12 @@
 #include <math.h>
 #include <string.h>
 
+#define MAX 10
+
 int main(){
     char palavraA[100];
     char palavraB[100];
-    
+
     printf("Digite A: ");
     scanf("%s", palavraA);
     
