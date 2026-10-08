@@ -20,11 +20,15 @@ void showbitschar(char A){
 }
 
 int main(){
-    for(char ch = 'A'; ch <= 'Z'; ch++){
-        printf("%c\t%d\t", ch, ch);
+    // for(char ch = 'A'; ch <= 'Z'; ch++){
+    //     printf("%c\t%d\t", ch, ch);
 
-        showbitschar(ch);
-    }
+    //     showbitschar(ch);
+    // }
+
+    int x = 7;
+    int y = ~x + 1; //Precisa somar 1 devido ao espelho dos numeros
+    printf("%d\n", y);
     
     return 0;
 }
