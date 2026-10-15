@@ -32,11 +32,13 @@ void juncao(int vetor1[], int tamanho1, int vetor2[], int vetor3[]){
 }
 
 void sorted(int vetor[], int tamanho){
-    for(int i = 0; i < (tamanho - 1); i++){
-        if(vetor[i] > vetor[i + 1]){
-            int aux = vetor[i + 1];
-            vetor[i + 1] = vetor[i];
-            vetor[i] = aux;
+    for(int j = 0; j < tamanho - 1; j++){
+        for(int i = 0; i < (tamanho - 1 - j); i++){
+            if(vetor[i] > vetor[i + 1]){
+                int aux = vetor[i + 1];
+                vetor[i + 1] = vetor[i];
+                vetor[i] = aux;
+            }
         }
     }
 }
