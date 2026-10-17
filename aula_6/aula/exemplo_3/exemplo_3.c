@@ -20,7 +20,7 @@ int isolar(int a, int posicao){
 void showbitsint(int z){
     // N: número de bits em um int
     int N = sizeof(int) * 8;
-    for(int i = N - 1; i >= 0; )
+    for(int i = N - 1; i >= 0; );
 }
 
 int main(){
