@@ -1,0 +1,3 @@
+Dados do clima:
+temperatura: 15
+umidade: 0.75

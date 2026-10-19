@@ -5,17 +5,16 @@
 #include <string.h>
 
 int main(){
-    // Ponteiro para o arquivo
-    FILE* arquivo;
+    FILE* arquivo;   // ponteiro para o arquivo
 
-    // Criação do arquivo dados.txt (modo "w" -- write)
-    arquivo = fopen("dados.txt", "w");
+    arquivo = fopen("dados.txt", "w");    // cria dados.txt para escrita
 
-    // verificação se a criação ocorreu com sucesso
-    if(arquivo != NULL){
+    if(arquivo != NULL){                              // a criação deu certo?
         printf("Sucesso na criacao do arquivo\n");
-        fclose(arquivo); // fecha o arquivo
+        fclose(arquivo);                             // fecha o arquivo
     } else{
-        pritnf("Falha na criacao do arquivo\n");
+        printf("Falha na criacao do arquivo\n");
     }
+
+    return 0;
 }
