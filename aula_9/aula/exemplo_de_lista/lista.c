@@ -37,5 +37,19 @@ int main(){
         p = p -> proximo;
     }
 
+    // PEGANDO UM ELEMENTO POR SUA POSIÇÃO
+    Planeta *atual = marte;
+    int posicao = 1;
+
+    for(int i = 0; i < posicao; i++){
+        if(atual != NULL){
+            atual = atual -> proximo;
+        }
+    }
+
+    if(atual != NULL){
+        printf("%s\n", atual -> nome);
+    }
+
 }
 
